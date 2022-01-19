@@ -25,7 +25,6 @@ let childProcess = require("child_process");
 
 for (var i = 0; i < 4; i++) {
 
-
     let workerProcess = childProcess.exec("node support.js" + i, function (err, stdOut, stdErr) {
         if (err) {
             console.log("error", err);
