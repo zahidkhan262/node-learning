@@ -1,4 +1,6 @@
 const http = require('http');
+const os = require('os');
+console.log(os.totalmem)
 
 // const hostname = '127.0.0.1';
 // const port = '3070';
